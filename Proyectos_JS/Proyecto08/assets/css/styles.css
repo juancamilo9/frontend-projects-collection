@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;            /* Ocupa toda la altura de la pantalla */
+    background-color: #de8484;
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,15 @@
+@font-face{
+    font-family: RobotoLocal;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+    font-family:RobotoLocal;
+}

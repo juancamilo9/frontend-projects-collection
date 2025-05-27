@@ -1,0 +1,43 @@
+/* Podemos usar un fons-size a nivel htm para establecerun tamaño de fuente predeterminado */
+html{
+    font-size: 10px;
+}
+
+#title__page{
+    background-color: rgb(76, 74, 74);
+    font-size: 3.1rem;
+    padding: 1.7rem;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+#articles{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.articles__item{
+    display: inline-block;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    
+}
+
+.item__subtitle{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.item__description{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+

@@ -1,0 +1,31 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#box__blue{
+    background: rgb(66, 66, 243);
+}
+
+#box__marron{
+    background: rgb(201, 50, 50);
+}
+
+
+#box__blue,#box__marron{
+    width: 40rem;
+    height: 40rem;
+    margin:2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

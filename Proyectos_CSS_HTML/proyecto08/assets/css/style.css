@@ -1,0 +1,165 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Monserrat",Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    background: #ECF2f7;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main{
+    min-width: 90rem;
+
+}
+
+.main__text{
+    font-size: 2.2rem;
+    color:#E17171;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main__prices{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.prices__item{
+    color: #777AA2;
+    flex-basis: 33%;
+    background-color: white;
+    padding: 4rem;
+    text-align: center; 
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
+    margin: .2rem;
+}
+
+.prices__item:hover{
+    transform: scale(1.1);
+    background: #E99D9D;
+    color: white;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+    border: 1px solid #cfc2c2;
+}
+
+
+
+.item__subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item__price{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.item__detail{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: .1rem solid #cfc2c2;
+    border-top: .1rem solid #cfc2c2;
+}
+
+.item__detail:nth-child(4){
+    border:none;
+}
+
+.item__button{
+    color: white;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background:#E17171;
+    padding: .8rem;
+    border: .1rem solid transparent;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: all 300ms ease-in-out;
+}
+
+.item__button:hover{
+    background: white;
+    color: #E17171;
+    border: .1rem solid #E17171;
+}
+
+
+/* Sección de suscriptor adicional */
+.main__toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.toggle__label{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #4F5166;
+}
+
+.toggle__switch{
+    display: inline-block;
+    height: 2.8rem;
+    width: 5rem;
+    position: relative;
+}
+
+.toggle__checkbox{
+    display: none;
+
+}
+
+.toggle__slider{
+    border-radius: 3.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.toggle__slider::before{
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: white;
+    transition: all 300ms ease;
+    top: .4rem;
+    left: .4rem;
+    border-radius: 100%;
+}
+
+
+.toggle__checkbox:checked+.toggle__slider{
+    background: #E17171;
+
+}
+
+.toggle__checkbox:checked+.toggle__slider::before{
+    transform: translate(2.1rem);
+}

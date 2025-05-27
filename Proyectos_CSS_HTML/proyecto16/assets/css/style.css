@@ -1,0 +1,51 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Nerko One";
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+
+.layout__video{
+    width: 100%;
+    height: 100%;
+}
+
+.layout__content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content__title{
+    font-size: 10rem;
+    padding: 2rem;
+    text-shadow: 0 0 1rem rgb(155, 19, 214);
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.content__btn{
+    color: black;
+    text-transform: uppercase;
+    font-size: 3rem;
+    background: wheat;
+    width: 14rem;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border:1px solid wheat;
+    border-radius: 5px;
+}
+
+.content__btn:hover{
+    background:#0E0829;
+    color: antiquewhite;
+    transition: all 300ms ease;
+}
+
+

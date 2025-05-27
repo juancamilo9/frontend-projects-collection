@@ -1,0 +1,66 @@
+html{
+    /* Esto nos permite trabajar mejor con los rems*/
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.layout__main
+{
+    width: 25rem;
+    height: 25rem;
+}
+
+.main__star{
+    color: #FBE323;
+    font-size: 25rem;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.main__star--gray
+{
+    color: #CDBAF5;
+    z-index: 1;
+}
+
+.main__star--yellow
+{
+    color: #FBE323;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*Animación para aplicar en js*/
+@keyframes scale-animation {
+    100%{
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
+.visible
+{
+    animation: scale-animation 1s linear;
+    opacity: 1;
+    visibility: visible;
+}
+
+.yellow__color{
+     color: #FBE323;;
+}
+

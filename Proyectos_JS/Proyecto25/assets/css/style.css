@@ -1,0 +1,40 @@
+html{
+    /* Esto nos permite trabajar mejor con los rems*/
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__emojis{
+    min-width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emojis__emoji{
+    font-size: 20rem;
+    filter: grayscale(1);
+}
+
+.emojis__emoji:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+

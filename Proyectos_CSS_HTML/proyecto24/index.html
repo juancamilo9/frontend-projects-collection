@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Proyecto 24</title>
+  </head>
+  <body>
+    <div class="layout">
+      <main class="layout__main">
+        <article class="main__steps">
+          <ul class="steps__list">
+            <li class="list__item">
+              <div class="item__step">
+                <span class="step__step">1</span>
+              </div>
+              <div>
+                <p class="item__subtitle">Paso 1</p>
+                <p class="item__title">Crea tu cuenta</p>
+              </div>
+            </li>
+            <li class="list__item">
+              <div class="item__step">
+                <span class="step__step">2</span>
+              </div>
+              <div>
+                <p class="item__subtitle">Paso 2</p>
+                <p class="item__title">Dirección</p>
+              </div>
+            </li>
+            <li class="list__item">
+              <div class="item__step">
+                <span class="step__step">3</span>
+              </div>
+              <div>
+                <p class="item__subtitle">Paso 3</p>
+                <p class="item__title">Forma de pago</p>
+              </div>
+            </li>
+            <li class="list__item">
+              <div class="item__step">
+                <span class="step__step">4</span>
+              </div>
+              <div>
+                <p class="item__subtitle">Paso 4</p>
+                <p class="item__title">Confirmación</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article class="main__container">
+          <div class="container__title">
+            <h1 class="main__title">Registro</h1>
+            <p class="main__subtitle">Crea tu cuenta para poder seguir con la
+              compra</p>
+          </div>
+          <form class="main__form">
+            <div class="form__group">
+              <label for="nombre" class="form__label">Nombre</label>
+              <input type="text" class="form__input" id="nombre"
+                placeholder="Introduce su nombre">
+            </div>
+            <div class="form__group">
+              <label for="apellido" class="form__label">Apellido</label>
+              <input type="text" class="form__input" id="apellido"
+                placeholder="Introduce tu apellido">
+            </div>
+            <div class="form__group">
+              <label for="fecha" class="form__label">Fecha de nacimiento</label>
+              <input type="date" class="form__input" id="fecha">
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="text" class="form__input" id="email"
+                placeholder="Introduce tu correo">
+            </div>
+            <div class="form__group">
+              <label for="pass" class="form__label">Contraseña</label>
+              <input type="password" class="form__input" id="pass"
+                placeholder="Introduce tu clave">
+            </div>
+            <input type="submit" value="Siguiente" class="form__btn">
+          </form>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+html{
+    /* Esto nos permite trabajar mejor con los rems*/
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main{
+    position: relative;
+    width: 60rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #CCC;
+    border-radius: .5rem;
+    transform: all 300ms linear;
+    justify-content: space-between;
+}
+
+.main__input{
+    border: none;
+    outline: none;
+    padding: 1.5rem;
+    display: block;
+    width: 100%;
+    border-radius: .5rem;
+    font-weight: 500;
+}
+
+.main__icons{
+    flex-basis: 10%;
+
+}
+
+.icons__check, .icons__xmark{
+    position: absolute;
+    font-size: 3rem;
+    opacity: 1;
+    transition: all 300ms linear;
+    margin-top:.9rem;
+    margin-left: 1rem;
+    opacity: 0;
+
+}
+
+.icons__check{
+    color: #6DC06D;
+}
+
+
+.icons__xmark{
+    color: #F55D5D;
+}
+
+.focus{
+    border-color:black;
+}
+
+.show{
+    opacity: 1;
+}
+
+

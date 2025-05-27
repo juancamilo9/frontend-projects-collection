@@ -1,0 +1,101 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif;   
+}
+
+.layout{
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout__buttons{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+
+.buttons__button--1{
+  position: relative;
+  width: 22rem;
+  height: 7rem;
+  border-radius: .5rem;
+  border: 3px solid #73ADF3;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: 600;
+  color: #73ADF3;
+  background-color: white;
+  outline: none;
+}
+
+/* Efecto para buton--1 */
+
+.buttons__button--1::before{
+  content: "Subir video";
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #73ADF3;
+  color: #FFF;
+  font-weight: 600;
+  transform: translateY(7rem);
+  transition: all 500ms linear;
+}
+
+.buttons__button--1:hover::before{
+  transform: translateY(0);
+}
+
+/* Fin efecto */
+
+
+
+.buttons__button--2{
+  position: absolute;
+  background-color: #73ADF3;
+  color: #FFF;
+  border-radius: 10rem;
+  border: none;
+  width: 22rem;
+  height: 7rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #FFF;
+  outline: none;
+}
+
+/* Efectobutto--2 */
+.buttons__button--2::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #73ADF3;
+  border-radius: 10rem;
+  z-index: -1;
+  transition: all 1s ease-in-out;
+}
+
+.buttons__button--2:hover::before{
+  transform: scaleX(1.3) scaleY(1.5);
+  opacity: 0;
+}
+
+

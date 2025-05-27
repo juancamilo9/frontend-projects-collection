@@ -1,0 +1,114 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Monserrat";
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a7ff9;
+}
+
+.container__main{
+    min-width: 40rem;
+    border: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 14px #10205b;
+    border-radius: 20px;
+    box-shadow: 0 0 14px blue;
+}
+
+.main__user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    background-color: #0d35c0;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+
+.user__container-img{
+    width: 13rem;
+    height: 13rem;
+    background-color: white;
+    padding: 0.5rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    border-radius: 13rem;
+
+}
+
+.user__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 13rem;
+}
+
+.user__content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+}
+
+.user__name{
+    color: white;
+    font-weight: 600;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.user__nickname, .user__city{
+    color: white;
+    font-weight: 500;
+    opacity: 0.8;
+
+}
+
+.main__follows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 3rem 0;
+    padding: 0 4rem;
+    text-align: center;
+}
+
+.follows__follow{
+    border: 0.2rem solid transparent;
+    border-radius: 10px;
+    padding:0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    width: 33.3%;
+}
+
+.follows__follow:hover{
+    border: 2px solid rgb(189, 184, 184);
+}
+
+.follow__number{
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.follow__description{
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: .5;
+}

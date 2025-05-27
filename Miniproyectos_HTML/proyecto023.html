@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 23</title>
+</head>
+<body>
+  <h1>Formulario Dos</h1>
+  <form action="">
+    <fieldset>
+      <legend>Búsqueda</legend>
+      <label for="search">Buscar</label>
+      <input type="search" name="search" id="search">
+    </fieldset>
+
+    <fieldset>
+      <legend>Telefono</legend>
+      <label for="telefono">Telefono</label>
+      <input type="tel" name="telefono" id="telefono">
+    </fieldset>
+
+    <fieldset>
+      <legend>Hora</legend>
+      <label for="hora">Elegir hora</label>
+      <input type="time" name="hora" id="hora">
+    </fieldset>
+
+    <fieldset>
+      <legend>URL</legend>
+      <label for="url">Pega tu URL</label>
+      <input type="url" name="url" id="url">
+    </fieldset>
+
+    <fieldset>
+      <legend>Progreso</legend>
+      <label for="url">Barra de progreso</label>
+      <progress max="100" value="39"></progress>
+    </fieldset>
+
+    <fieldset>
+      <legend>Coches</legend>
+      <label for="coches">Lisa de coches</label>
+      <input list="coches" name="coches">
+      <datalist id="coches">
+        <option value="Audi"></option>
+        <option value="Mercedez"></option>
+        <option value="Lambo"></option>
+      </datalist>
+
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+  </form>
+</body>
+</html>

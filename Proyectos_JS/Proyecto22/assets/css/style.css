@@ -1,0 +1,50 @@
+html{
+    /* Esto nos permite trabajar mejor con los rems*/
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: white;
+}
+
+.layout{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__input{
+    width: 100%;
+    height: 5rem;
+    border-radius: .5rem;
+    border: .2rem solid #CDCDCD;
+    padding: .9rem;
+    margin-bottom: 3rem;
+    outline: none;
+}
+
+.main__text{
+    text-align: justify;
+    font-size: 2.3rem;
+    line-height: 4rem;
+}
+
+.text__search{
+    background-color:#CDBAF5;
+    padding: .5rem;
+    border-radius: .9rem;
+    font-weight: 600;
+}

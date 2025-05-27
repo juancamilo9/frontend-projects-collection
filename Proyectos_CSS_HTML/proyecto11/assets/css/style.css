@@ -1,0 +1,26 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-image: url("../img/pattern.jpg");
+    font-size: 1.5rem;
+}
+
+header{
+    border: 1px solid black;
+    background: rgb(46, 46, 185);
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    border: 3px solid rgb(38, 219, 56);
+    background: tomato;
+    padding: 1rem;
+    color: white;
+}
